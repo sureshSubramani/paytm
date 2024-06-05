@@ -1,0 +1,25 @@
+
+    .user_grivance_wrap{padding: 0 10px;}
+    .user_grivance_wrap form{
+        padding: 30px;
+        margin-top: 10px;
+        background-color: #F9F9F6;
+    }
+    .user_grivance_wrap form input,
+    .user_grivance_wrap form select,
+    .user_grivance_wrap form textarea{
+        margin: 10px;
+        border: 1px solid #ccc !important;
+    }
+    .user_grivance_wrap h2{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .user_grivance_wrap h3{
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .user_grivance_wrap h2 span{
+        color: #f96;
+    }
+    

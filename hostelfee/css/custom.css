@@ -1,0 +1,101 @@
+.event-block {
+    margin: 4px 0;
+    position: relative;
+}
+
+.text-prg {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+:root {
+    --white: #fff;
+    --smoke-white: #f1f3f5;
+    --blue: #4169e1;
+}
+
+.selecotr-item {
+    position: relative;
+    width: 80%;
+    display: inline;
+    margin: 0 auto;
+}
+
+.selector-item_label:hover {
+    opacity: 0.9
+}
+
+.selector-item_label {
+    position: relative;
+    height: 100%;
+    width: 35%;
+    text-align: center;
+    border-radius: 999px;
+    line-height: 270%;
+    font-weight: 400;
+    transition-duration: .5s;
+    transition-property: transform, color, box-shadow;
+    background: var(--blue);
+    color: var(--white);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .5), 0 2px 4px rgba(0, 0, 0, .5);
+    transform: translateY(-2px);
+    background-image: linear-gradient(45deg, #3f51b5, #0b91d2 80%);
+    cursor: pointer;
+    font-size: 10pt;
+    border: none;
+    margin-top: 5px;
+}
+
+.selecotr-item+.selecotr-item {
+    margin-top: 10px;
+}
+
+.selector-item_radio:checked+.selector-item_label {
+    background-color: var(--blue);
+    color: var(--white);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .5), 0 2px 4px rgba(0, 0, 0, .5);
+    transform: translateY(-2px);
+    background-image: linear-gradient(180deg, #08387f, #002152 80%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: transparent;
+    height: 100%;
+    background-image: url("http:///mahendra.org/hostelfee/images/payment-bg.jpg");
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.payment-failure {
+    font-size: 30pt;
+    background: #bf2626;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    color: #ffffff;
+}
+
+.payment-success {
+    font-size: 30pt;
+    background: #2e9005;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    color: #ffffff;
+}
+
+h1.header-title {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 2.5rem !important;
+    color: #e0f1ff !important;
+    text-align: center;
+    /* background-image: linear-gradient(0deg, #3f51b5, #ffffff); */
+    /* -webkit-font-smoothing: antialiased; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    font-weight: 300;
+}
